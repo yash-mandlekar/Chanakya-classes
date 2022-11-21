@@ -8,17 +8,17 @@ https://templatemo.com/tm-557-grad-school
 
 @import url(fontawesome.css);
 @import url(
-    "<link href="https://fonts.googleapis.com/css?family=Montserrat:100,
-    200,
-    300,
-    400,
-    500,
-    600,
-    700,
-    800,
-    900" rel="stylesheet">"
-  )
-  ; body {
+  "<link href="https://fonts.googleapis.com/css?family=Montserrat:100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900" rel="stylesheet">"
+);
+body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -182,7 +182,7 @@ a.menu-link {
 }
 
 .main-header {
-  background-color: rgba(22, 34, 57, 0.95);
+  background-color: rgb(17, 41, 131);
   height: 80px;
   position: fixed;
   z-index: 12;
@@ -195,7 +195,10 @@ a.menu-link {
   line-height: 80px;
   padding-left: 60px;
 }
-
+.main-header .logo img {
+  height: 76px;
+  width: 190px;
+}
 .main-header .logo a {
   font-size: 36px;
   text-transform: uppercase;
@@ -327,7 +330,8 @@ a.menu-link {
 
 .video-overlay {
   position: absolute;
-  background-color: rgba(22, 34, 57, 0.85);
+  /* background-color: rgba(22, 34, 57, 0.85); */
+  background-color: rgba(17, 42, 131, 0.572);
   top: 0;
   left: 0;
   bottom: 7px;
